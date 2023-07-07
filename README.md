@@ -43,7 +43,7 @@ npm start
 Para iniciar somente o back-end, execute o seguinte comando na raiz do projeto:
 
 ```bash
-nodemon
+nodemon index
 ```
 
 ## Fotos do projeto
