@@ -1,0 +1,27 @@
+.mensagem{
+    width: 60%;
+    height: 60%;
+    margin: 10px auto ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.mensagem p{
+    font-weight: bold;
+    color:#fff ;
+    text-shadow: 1px 1px 1px #000;
+    font-size: clamp(0.7rem, 0.2rem + 0.7vw, 1.5rem);
+}
+
+.sucesso{
+    background-color: #00FF7F;
+    border-color: #C3E6CB;
+}
+
+.erro{
+    background-color: #DC143C;
+    border-color: #F5C6CB;
+}
